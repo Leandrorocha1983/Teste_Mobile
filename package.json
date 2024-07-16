@@ -1,0 +1,24 @@
+{
+  "name": "teste-mobile",
+  "version": "1.0.0",
+  "description": "Teste Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Jessica Teixeira Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.12.2",
+    "webdriverio": "^8.12.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.8.6",
+    "@wdio/mocha-framework": "^8.8.6",
+    "@wdio/spec-reporter": "^8.8.6",
+    "chromedriver": "^112.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
